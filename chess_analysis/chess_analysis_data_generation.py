@@ -49,7 +49,6 @@ def distribution_of_players_by_rating_group():
 
 distribution_of_players_by_rating_group()
 
-
 def distribution_of_players_by_year_born():
     new_df = df['B-Year'].value_counts().rename_axis('Year').reset_index(name='Number of players')
 
@@ -60,3 +59,12 @@ def distribution_of_players_by_year_born():
 
 
 distribution_of_players_by_year_born()
+
+
+def distribution_of_players_by_year_joined():
+    new_df = df['J-Year'].value_counts().rename_axis('Year').reset_index(name='Number of players')
+
+    new_df.sort_values(by=['Year'], inplace=True)
+    new_df.to_csv('players_by_year_joined.csv', index=False)
+
+    return new_df
