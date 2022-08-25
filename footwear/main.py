@@ -45,6 +45,8 @@ def average_number_of_reivews_across_brands():
         brands_df = brands_df.append({'brand': brand, 'avg_num_reviews': df[df['brand'] == brand]['Number of reviews'].mean()},
                                      ignore_index=True)
 
+    brands_df['avg_num_reviews'] = brands_df['avg_num_reviews'].round(2)
+
 
 
     brands_df.to_csv('average_number_of_reviews_across_brands.csv', index=False)
