@@ -15,16 +15,7 @@ def distribution_of_brands():
 
 # distribution_of_brands()
 
-def distribution_of_sales_price():
-    sales_price_bins = [0, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600]
-    sales_price_labels = ['0-50', '50-100', '100-150', '150-200', '200-250', '250-300', '300-350', '350-400', '400-450',
-                          '450-500', '500-550', '550-600']
 
-    df['sales_price_group'] = pd.cut(df['Sales price'], bins=sales_price_bins, labels=sales_price_labels)
-    sales_price_group = df['sales_price_group'].value_counts().rename_axis('Sales Price Range').reset_index(
-        name='count')
-    sales_price_group.to_csv('distribution_of_sales_price.csv', index=False)
-    return sales_price_group
 
 
 def average_star_rating_across_brands():
@@ -55,4 +46,38 @@ def average_number_of_reivews_across_brands():
 
     brands_df.to_csv('average_number_of_reviews_across_brands.csv', index=False)
     return brands_df
-average_number_of_reivews_across_brands()
+#average_number_of_reivews_across_brands()
+
+
+def distribution_of_sales_price():
+    sales_price_bins = [0, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600]
+    sales_price_labels = ['0-50', '50-100', '100-150', '150-200', '200-250', '250-300', '300-350', '350-400', '400-450',
+                          '450-500', '500-550', '550-600']
+
+    df['sales_price_group'] = pd.cut(df['Sales price'], bins=sales_price_bins, labels=sales_price_labels)
+    sales_price_group = df['sales_price_group'].value_counts().rename_axis('Sales Price Range').reset_index(
+        name='count')
+    return sales_price_group
+def number_of_products_each_brand_have_across_price_bins():
+    brands = df['brand'].unique()
+
+    main_df = pd.DataFrame(columns=['brand', '0-50', '50-100', '100-150', '150-200'])
+
+    for brand in brands:
+        brand_df = df[df['brand'] == brand]
+        brand_df['sales_price_group'] = pd.cut(brand_df['Sales price'], bins=[0, 50, 100, 150, 200], labels=['0-50', '50-100', '100-150', '150-200'])
+    main_df.to_csv('number_of_products_each_brand_have_across_price_bins.csv', index=False)
+
+
+
+
+
+
+    return main_df
+
+number_of_products_each_brand_have_across_price_bins()
+
+
+
+
+
