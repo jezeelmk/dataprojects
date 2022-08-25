@@ -33,4 +33,4 @@ distribution_of_sales_price()
 #print(test_list)
 
 mast_df = pd.DataFrame(test_list, columns=['brand', '0-50', '50-100', '100-150', '150-200', '200-250', '250-300', '300-350', '350-400', '400-450', '450-500', '500-550', '550-600'])
-print(mast_df)
+mast_df.to_csv('distribution_of_sales_price_Across_all_brands.csv', index=False)

@@ -80,7 +80,14 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/footwear/footwear_data_v1.csv">
+        <entry key="/footwear/distribution_of_sales_price_Across_all_brands.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/footwear/distribution_of_sales_price_Across_brands.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

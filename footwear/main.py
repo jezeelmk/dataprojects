@@ -13,7 +13,7 @@ def distribution_of_brands():
     return brands
 
 
-# distribution_of_brands()
+distribution_of_brands()
 
 
 
@@ -30,7 +30,7 @@ def average_star_rating_across_brands():
     brands_df.to_csv('average_star_rating_across_brands.csv', index=False)
     return brands_df
 
-#average_star_rating_across_brands()
+average_star_rating_across_brands()
 
 def average_number_of_reivews_across_brands():
     """
@@ -46,7 +46,7 @@ def average_number_of_reivews_across_brands():
 
     brands_df.to_csv('average_number_of_reviews_across_brands.csv', index=False)
     return brands_df
-#average_number_of_reivews_across_brands()
+average_number_of_reivews_across_brands()
 
 
 def distribution_of_sales_price():
@@ -57,25 +57,45 @@ def distribution_of_sales_price():
     df['sales_price_group'] = pd.cut(df['Sales price'], bins=sales_price_bins, labels=sales_price_labels)
     sales_price_group = df['sales_price_group'].value_counts().rename_axis('Sales Price Range').reset_index(
         name='count')
-    return sales_price_group
-def number_of_products_each_brand_have_across_price_bins():
-    brands = df['brand'].unique()
+    sales_price_group.to_csv('distribution_of_sales_price.csv', index=False)
 
-    main_df = pd.DataFrame(columns=['brand', '0-50', '50-100', '100-150', '150-200'])
+distribution_of_sales_price()
 
-    for brand in brands:
-        brand_df = df[df['brand'] == brand]
-        brand_df['sales_price_group'] = pd.cut(brand_df['Sales price'], bins=[0, 50, 100, 150, 200], labels=['0-50', '50-100', '100-150', '150-200'])
-    main_df.to_csv('number_of_products_each_brand_have_across_price_bins.csv', index=False)
+def distribution_of_sales_price():
 
-
+    test_list = []
+    sales_price_bins = [0, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600]
+    sales_price_labels = ['0-50', '50-100', '100-150', '150-200', '200-250', '250-300', '300-350', '350-400', '400-450',
+                          '450-500', '500-550', '550-600']
 
 
 
 
-    return main_df
+    brand_list = df['brand'].unique()
 
-number_of_products_each_brand_have_across_price_bins()
+    new_df = pd.DataFrame(columns=['brand', 'sales_price_group', 'count'])
+
+    for brand in brand_list:
+
+        df_brand = df[df['brand'] == brand]
+        df_brand['sales_price_group'] = pd.cut(df_brand['Sales price'], bins=sales_price_bins, labels=sales_price_labels)
+        sales_price_group = df_brand['sales_price_group'].value_counts(sort=False).rename_axis('Sales Price Range').reset_index(name='count')
+
+        new_list = []
+        new_list.append(brand)
+        for item in sales_price_group['count']:
+            new_list.append(item)
+
+
+        test_list.append(new_list)
+
+    mast_df = pd.DataFrame(test_list,
+                           columns=['brand', '0-50', '50-100', '100-150', '150-200', '200-250', '250-300', '300-350',
+                                    '350-400', '400-450', '450-500', '500-550', '550-600'])
+    mast_df.to_csv('distribution_of_sales_price_Across_all_brands.csv', index=False)
+
+distribution_of_sales_price()
+
 
 
 
