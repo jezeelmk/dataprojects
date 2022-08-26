@@ -10,42 +10,28 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/footwear/ASICS_price_bin.csv">
+        <entry key="/chess_analysis/chess200-csv.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="/footwear/Adidas_price_bin.csv">
+        <entry key="/chess_analysis/chess200.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="/footwear/Nike_price_bin.csv">
+        <entry key="/chess_analysis/distribution_of_players_by_age.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="/footwear/PUMA_price_bin.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/footwear/Reebok_price_bin.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/footwear/Under Armour_price_bin.csv">
+        <entry key="/distribution_of_players_by_age.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -87,13 +73,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/footwear/distribution_of_sales_price_Across_brands.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="/footwear/footwear_data_v1_new_column_dropped.csv">
           <value>
             <Attribute>
@@ -101,20 +80,14 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/footwear/mean_meadian_and_mode_across_brands.csv">
+        <entry key="/players_by_age_group.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="/footwear/number_of_products_each_brand_have_across_price_bins.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
+        <entry />
       </map>
     </option>
   </component>

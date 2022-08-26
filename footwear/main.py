@@ -15,9 +15,6 @@ def distribution_of_brands():
 
 distribution_of_brands()
 
-
-
-
 def average_star_rating_across_brands():
     """
     Returns a dataframe with the average star rating for each brand.
@@ -27,7 +24,6 @@ def average_star_rating_across_brands():
     for brand in brands:
         brands_df = brands_df.append({'brand': brand, 'avg_star_rating': df[df['brand'] == brand]['Star rating'].mean()},
                                      ignore_index=True)
-    #round of the value to two decimal places for the average star rating for each brand
     brands_df['avg_star_rating'] = brands_df['avg_star_rating'].round(2)
 
     brands_df.to_csv('average_star_rating_across_brands.csv', index=False)

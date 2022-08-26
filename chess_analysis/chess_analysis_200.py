@@ -1,6 +1,6 @@
 import pandas as pd
 
-path = "/Users/tony/Desktop/datarepo/chess/chess.csv"
+path = "/Users/tony/PycharmProjects/chess/chess_analysis/chess200-csv.csv"
 
 df = pd.read_csv(path)
 
@@ -8,7 +8,7 @@ df = pd.read_csv(path)
 def distribution_of_players_by_country():
     new_df = df['Country'].value_counts().rename_axis('Country').reset_index(name='Number of players')
     new_df.sort_values(by=['Number of players'], inplace=True, ascending=False)
-    new_df.to_csv('distribution_of_players_by_country.csv', index=False)
+    new_df.to_csv('distribution_of_players_by_country_2000.csv', index=False)
     return new_df
 
 distribution_of_players_by_country()
@@ -17,7 +17,7 @@ distribution_of_players_by_country()
 def distribution_of_players_by_age():
     new_df = df['Age'].value_counts().rename_axis('Age').reset_index(name='Number of players')
     new_df.sort_values(by=['Age'], inplace=True)
-    new_df.to_csv('distribution_of_players_by_age.csv', index=False)
+    new_df.to_csv('distribution_of_players_by_age_2000.csv', index=False)
 
     return new_df
 
