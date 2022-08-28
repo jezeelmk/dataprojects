@@ -3,55 +3,6 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="/chess_analysis/chess.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/chess_analysis/chess200-csv.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/chess_analysis/distribution_of_players_by_age.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/chess_analysis/distribution_of_players_by_age_2000.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/chess_analysis/distribution_of_players_by_age_2022.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/chess_analysis/distribution_of_players_by_country_2000.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/chess_analysis/distribution_of_players_by_country_2022.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="/chess_analysis/fide_rating_data_2000.csv">
           <value>
             <Attribute>
@@ -66,63 +17,63 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/chess_analysis/players_by_age_group.csv">
+        <entry key="/chess_analysis/processed_data/distribution_of_players_by_age_2000.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="/chess_analysis/players_by_age_group_2000.csv">
+        <entry key="/chess_analysis/processed_data/distribution_of_players_by_age_2022.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="/chess_analysis/players_by_age_group_2022.csv">
+        <entry key="/chess_analysis/processed_data/distribution_of_players_by_country_2000.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="/chess_analysis/players_by_rating_group.csv">
+        <entry key="/chess_analysis/processed_data/players_by_age_group_2000.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="/chess_analysis/players_by_rating_group_2000.csv">
+        <entry key="/chess_analysis/processed_data/players_by_age_group_2022.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="/chess_analysis/players_by_rating_range_2022.csv">
+        <entry key="/chess_analysis/processed_data/players_by_rating_range_2000.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="/chess_analysis/players_by_year_born.csv">
+        <entry key="/chess_analysis/processed_data/players_by_rating_range_2022.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="/chess_analysis/players_by_year_born_2000.csv">
+        <entry key="/chess_analysis/processed_data/players_by_year_born_2000.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="/chess_analysis/players_by_year_born_2022.csv">
+        <entry key="/chess_analysis/processed_data/players_by_year_born_2022.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
