@@ -11,6 +11,7 @@ bin = ['0-50', '50-100', '100-150', '150-200', '200-250', '250-300', '300-350', 
 
 #set second row as df_ua
 
+print(df)
 
 def df_to_list(loc_value):
     x = df.iloc[loc_value]
@@ -24,13 +25,17 @@ df_puma = df_to_list(4)  #puma
 df_reebok = df_to_list(5)  #reebok
 
 fig = go.Figure()
-fig.add_trace(go.Bar(x=bin, y=df_ua, name='Under Armour'))
-fig.add_trace(go.Bar(x=bin, y=df_asics, name='Asics'))
-fig.add_trace(go.Bar(x=bin, y=df_nike, name='Nike'))
-fig.add_trace(go.Bar(x=bin, y=df_adidas, name='Adidas'))
-fig.add_trace(go.Bar(x=bin, y=df_puma, name='Puma'))
-fig.add_trace(go.Bar(x=bin, y=df_reebok, name='Reebok'))
-fig.update_layout(barmode='group', title='Distribution of Sales Price Across all Brands')
-fig.show()
 
+#plot line charts for each brand
+fig.add_trace(go.Scatter(x=bin, y=df_ua, name='Under Armour'))
+fig.add_trace(go.Scatter(x=bin, y=df_asics, name='Asics'))
+fig.add_trace(go.Scatter(x=bin, y=df_nike, name='Nike'))
+fig.add_trace(go.Scatter(x=bin, y=df_adidas, name='Adidas'))
+fig.add_trace(go.Scatter(x=bin, y=df_puma, name='Puma'))
+fig.add_trace(go.Scatter(x=bin, y=df_reebok, name='Reebok'))
+
+fig.update_layout(title='Distribution of Sales Price Across all Brands',
+                    xaxis_title='Price Range',
+                    yaxis_title='Number of Products')
+fig.show()
 
