@@ -1,10 +1,18 @@
 import pandas as pd
 
-path = "/Users/tony/PycharmProjects/chess/chess_analysis/chess200-csv.csv"
+path = "/Users/tony/PycharmProjects/chess/chess_analysis/fide_rating_data_2000.csv"
 df = pd.read_csv(path)
 
 
 def distribution_of_players_by_country():
+
+    '''
+    This function returns a data frame containing the number of players in each country
+    in the fide rating list.
+    :return:
+    '''
+
+
     new_df = df['Country'].value_counts().rename_axis('country').reset_index(name='number_of_players')
     new_df.sort_values(by=['number_of_players'], inplace=True, ascending=False)
     new_df.to_csv('distribution_of_players_by_country_2000.csv', index=False)

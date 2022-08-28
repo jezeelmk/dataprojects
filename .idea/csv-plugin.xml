@@ -52,6 +52,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/chess_analysis/fide_rating_data_2000.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/chess_analysis/fide_rating_data_2022.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/chess_analysis/players_by_age_group.csv">
           <value>
             <Attribute>

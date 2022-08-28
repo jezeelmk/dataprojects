@@ -1,6 +1,6 @@
 import pandas as pd
 
-path = "/Users/tony/Desktop/datarepo/chess/chess.csv"
+path = "/Users/tony/PycharmProjects/chess/chess_analysis/fide_rating_data_2022.csv"
 df = pd.read_csv(path)
 
 

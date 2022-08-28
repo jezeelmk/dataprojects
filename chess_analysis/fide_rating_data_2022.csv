@@ -1,0 +1,101 @@
+,Rank,Name,Title,Country,Rating,B-Year,Age
+0,1,"Carlsen, Magnus",g,Norway,2864,1990,32
+1,2,"Ding, Liren",g,China,2808,1992,30
+2,3,"Nepomniachtchi, Ian",g,Russia,2792,1990,32
+3,4,"Firouzja, Alireza",g,France,2778,2003,19
+4,5,"Caruana, Fabiano",g,USA,2776,1992,30
+5,6,"Aronian, Levon",g,USA,2775,1982,40
+6,7,"So, Wesley",g,USA,2773,1993,29
+7,8,"Nakamura, Hikaru",g,USA,2768,1987,35
+8,9,"Giri, Anish",g,Netherlands,2760,1994,28
+9,10,"Mamedyarov, Shakhriyar",g,Azerbaijan,2758,1985,37
+10,11,"Vachier-Lagrave, Maxime",g,France,2757,1990,32
+11,12,"Anand, Viswanathan",g,India,2756,1969,53
+12,13,"Rapport, Richard",g,Hungary,2754,1996,26
+13,14,"Dominguez Perez, Leinier",g,USA,2754,1983,39
+14,15,"Radjabov, Teimour",g,Azerbaijan,2747,1987,35
+15,16,"Karjakin, Sergey",g,Russia,2747,1990,32
+16,17,"Grischuk, Alexander",g,Russia,2745,1983,39
+17,18,"Duda, Jan-Krzysztof",g,Poland,2740,1998,24
+18,19,"Wang, Hao",g,China,2735,1989,33
+19,20,"Andreikin, Dmitry",g,FID,2729,1990,32
+20,21,"Le, Quang Liem",g,Vietnam,2728,1991,31
+21,22,"Topalov, Veselin",g,Bulgaria,2728,1975,47
+22,23,"Wei, Yi",g,China,2727,1999,23
+23,24,"Vitiugov, Nikita",g,FID,2722,1987,35
+24,25,"Harikrishna, Pentala",g,India,2720,1986,36
+25,26,"Shankland, Sam",g,USA,2720,1991,31
+26,27,"Vidit, Santosh Gujrathi",g,India,2714,1994,28
+27,28,"Wojtaszek, Radoslaw",g,Poland,2711,1987,35
+28,29,"Vallejo Pons, Francisco",g,Spain,2710,1982,40
+29,30,"Bu, Xiangzhi",g,China,2709,1985,37
+30,31,"Yu, Yangyi",g,China,2708,1994,28
+31,32,"Alekseenko, Kirill",g,FID,2707,1997,25
+32,33,"Artemiev, Vladislav",g,Russia,2706,1998,24
+33,34,"Sjugirov, Sanan",g,Russia,2703,1993,29
+34,35,"Dubov, Daniil",g,Russia,2702,1996,26
+35,36,"Tomashevsky, Evgeny",g,Russia,2702,1987,35
+36,37,"Maghsoodloo, Parham",g,Iran,2701,2000,22
+37,38,Gukesh D,g,India,2699,2006,16
+38,39,"Deac, Bogdan-Daniel",g,Romania,2699,2001,21
+39,40,"Sargissian, Gabriel",g,Armenia,2698,1983,39
+40,41,"Adams, Michael",g,England,2697,1971,51
+41,42,"Shirov, Alexei",g,Spain,2697,1972,50
+42,43,"Eljanov, Pavel",g,Ukraine,2695,1983,39
+43,44,"Predke, Alexandr",g,FID,2692,1994,28
+44,45,"Esipenko, Andrey",g,FID,2692,2002,20
+45,46,"Korobov, Anton",g,Ukraine,2691,1985,37
+46,47,"Xiong, Jeffery",g,USA,2690,2000,22
+47,48,Erigaisi Arjun,g,India,2689,2003,19
+48,49,"Nyzhnyk, Illya",g,Ukraine,2687,1996,26
+49,50,"Amin, Bassem",g,Egypt,2687,1988,34
+50,51,"Niemann, Hans Moke",g,USA,2687,2003,19
+51,52,"Fedoseev, Vladimir",g,FID,2685,1995,27
+52,53,"Cheparinov, Ivan",g,Bulgaria,2685,1986,36
+53,54,"Sevian, Samuel",g,USA,2684,2000,22
+54,55,"Oparin, Grigoriy",g,USA,2683,1997,25
+55,56,"Svidler, Peter",g,Russia,2683,1976,46
+56,57,"Saric, Ivan",g,Croatia,2682,1990,32
+57,58,"Jakovenko, Dmitry",g,Russia,2682,1983,39
+58,59,"Robson, Ray",g,USA,2682,1994,28
+59,60,"Navara, David",g,Czech Republic,2681,1985,37
+60,61,"Van Foreest, Jorden",g,Netherlands,2680,1999,23
+61,62,"Salem, A.R. Saleh",g,UAE,2679,1993,29
+62,63,"Li, Chao b",g,China,2679,1989,33
+63,64,"Abdusattorov, Nodirbek",g,Uzbekistan,2677,2004,18
+64,65,"Almasi, Zoltan",g,Hungary,2677,1976,46
+65,66,"Najer, Evgeniy",g,Russia,2676,1977,45
+66,67,"Kovalenko, Igor",g,Ukraine,2674,1988,34
+67,68,"Keymer, Vincent",g,Germany,2672,2004,18
+68,69,"Santos Latasa, Jaime",g,Spain,2672,1996,26
+69,70,"Tari, Aryan",g,Norway,2672,1999,23
+70,71,"Areshchenko, Alexander",g,Ukraine,2671,1986,36
+71,72,"Matlakov, Maxim",g,Russia,2671,1991,31
+72,73,"Moussard, Jules",g,France,2670,1995,27
+73,74,"Kasimdzhanov, Rustam",g,Uzbekistan,2670,1979,43
+74,75,"Kryvoruchko, Yuriy",g,Ukraine,2669,1986,36
+75,76,"Anton Guijarro, David",g,Spain,2668,1995,27
+76,77,"Gelfand, Boris",g,Israel,2668,1968,54
+77,78,"Guseinov, Gadir",g,Azerbaijan,2668,1986,36
+78,79,"Ni, Hua",g,China,2668,1983,39
+79,80,"Kamsky, Gata",g,USA,2666,1974,48
+80,81,"Naiditsch, Arkadij",g,Azerbaijan,2666,1985,37
+81,82,"Martirosyan, Haik M.",g,Armenia,2666,2000,22
+82,83,"Ma, Qun",g,China,2666,1991,31
+83,84,"Volokitin, Andrei",g,Ukraine,2665,1986,36
+84,85,"Bluebaum, Matthias",g,Germany,2664,1997,25
+85,86,"Tabatabaei, M. Amin",g,Iran,2664,2001,21
+86,87,"Sarana, Alexey",g,FID,2662,2000,22
+87,88,"McShane, Luke J",g,England,2661,1984,38
+88,89,Praggnanandhaa R,g,India,2661,2005,17
+89,90,"Sargsyan, Shant",g,Armenia,2661,2002,20
+90,91,"Inarkiev, Ernesto",g,Russia,2661,1985,37
+91,92,"Mareco, Sandro",g,Argentina,2657,1987,35
+92,93,"Mamedov, Rauf",g,Azerbaijan,2656,1988,34
+93,94,"Grandelius, Nils",g,Sweden,2655,1993,29
+94,95,Narayanan.S.L,g,India,2654,1998,24
+95,96,"Swiercz, Dariusz",g,USA,2652,1994,28
+96,97,"Malakhov, Vladimir",g,FID,2651,1980,42
+97,98,Nihal Sarin,g,India,2651,2004,18
+98,99,"Hou, Yifan",g,China,2650,1994,28
+99,100,"Howell, David W L",g,England,2650,1990,32

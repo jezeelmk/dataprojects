@@ -1,0 +1,101 @@
+,Rank,Name,Title,Country,Rating,B-Year,age
+0,1,"Kasparov, Garry",g,Russia,2849,1963,37
+1,2,"Kramnik, Vladimir",g,Russia,2770,1975,25
+2,3,"Anand, Viswanathan",g,India,2762,1969,31
+3,4,"Morozevich, Alexander",g,Russia,2756,1977,23
+4,5,"Adams, Michael",g,England,2755,1971,29
+5,6,"Shirov, Alexei",g,Spain,2746,1972,28
+6,7,"Leko, Peter",g,Hungary,2743,1979,21
+7,8,"Ivanchuk, Vassily",g,Ukraine,2719,1969,31
+8,9,"Topalov, Veselin",g,Bulgaria,2707,1975,25
+9,10,"Krasenkow, Michal",g,Poland,2702,1963,37
+10,11,"Bareev, Evgeny",g,Russia,2702,1966,34
+11,12,"Karpov, Anatoly",g,Russia,2699,1951,49
+12,13,"Kasimdzhanov, Rustam",g,Uzbekistan,2690,1979,21
+13,14,"Svidler, Peter",g,Russia,2689,1976,24
+14,15,"Gelfand, Boris",g,Israel,2681,1968,32
+15,16,"Short, Nigel D.",g,England,2677,1965,35
+16,17,"Smirin, Ilia",g,Israel,2677,1968,32
+17,18,"Dreev, Alexey",g,Russia,2676,1969,31
+18,19,"Azmaiparashvili, Zurab",g,Georgia,2673,1960,40
+19,20,"Ye, Jiangchuan",g,China,2670,1960,40
+20,21,"Rublevsky, Sergei",g,Russia,2670,1974,26
+21,22,"Xu, Jun",g,China,2668,1962,38
+22,23,"Almasi, Zoltan",g,Hungary,2668,1976,24
+23,24,"Gurevich, Mikhail",g,Belgium,2667,1959,41
+24,25,"Khalifman, Alexander",g,Russia,2667,1966,34
+25,26,"Movsesian, Sergei",g,Czech Republic,2666,1978,22
+26,27,"Georgiev, Kiril",g,Bulgaria,2661,1965,35
+27,28,"Akopian, Vladimir",g,Armenia,2660,1971,29
+28,29,"Peng, Xiaomin",g,China,2657,1973,27
+29,30,"Nikolic, Predrag",g,Bosnia and Herzegovina,2657,1960,40
+30,31,"Tkachiev, Vladislav",g,France,2657,1973,27
+31,32,"Polgar, Judit (GM)",g,Hungary,2656,1976,24
+32,33,"Beliavsky, Alexander G",g,Slovenia,2654,1953,47
+33,34,"Piket, Jeroen",g,Netherlands,2649,1969,31
+34,35,"Lautier, Joel",g,France,2648,1973,27
+35,36,"Seirawan, Yasser",g,USA,2647,1960,40
+36,37,"Fedorov, Alexei",g,Belarus,2646,1972,28
+37,38,"Salov, Valery",g,Russia,2644,1964,36
+38,39,"Van Wely, Loek",g,Netherlands,2643,1972,28
+39,40,"Gulko, Boris F",g,USA,2643,1947,53
+40,41,"Nenashev, Alexander",g,Uzbekistan,2642,1962,38
+41,42,"Bologan, Viktor",g,Moldova,2641,1971,29
+42,43,"Andersson, Ulf",g,Sweden,2641,1951,49
+43,44,"Hodgson, Julian M.",g,England,2640,1963,37
+44,45,"Shipov, Sergei",g,Russia,2640,1966,34
+45,46,"Timman, Jan H",g,Netherlands,2639,1951,49
+46,47,"Zhang, Zhong",g,China,2636,1978,22
+47,48,"Zvjaginsev, Vadim",g,Russia,2634,1976,24
+48,49,"Khenkin, Igor",g,Germany,2633,1968,32
+49,50,"Milos, Gilberto",g,Brazil,2633,1963,37
+50,51,"Ponomariov, Ruslan",g,Ukraine,2630,1983,17
+51,52,"Sadler, Matthew",g,England,2628,1974,26
+52,53,"Sakaev, Konstantin",g,Russia,2627,1974,26
+53,54,"Ehlvest, Jaan",g,Estonia,2627,1962,38
+54,55,"Onischuk, Alexander",g,Ukraine,2627,1975,25
+55,56,"Kharlov, Andrei",g,Russia,2627,1968,32
+56,57,"Milov, Vadim",g,Switzerland,2626,1972,28
+57,58,"Avrukh, Boris",g,Israel,2625,1978,22
+58,59,"Kaidanov, Gregory S",g,USA,2624,1959,41
+59,60,"Vaganian, Rafael A",g,Armenia,2623,1951,49
+60,61,"Speelman, Jonathan S.",g,England,2623,1956,44
+61,62,"Tregubov, Pavel V.",g,Russia,2620,1971,29
+62,63,"Korchnoi, Viktor",g,Switzerland,2620,1931,69
+63,64,"Korneev, Oleg",g,Russia,2619,1969,31
+64,65,"Huebner, Robert Dr.",g,Germany,2615,1948,52
+65,66,"Hansen, Curt",g,Denmark,2613,1964,36
+66,67,"Bacrot, Etienne",g,France,2613,1983,17
+67,68,"Hracek, Zbynek",g,Czech Republic,2612,1970,30
+68,69,"Kozul, Zdenko",g,Croatia,2611,1966,34
+69,70,"Novikov, Igor A",g,Ukraine,2611,1962,38
+70,71,"Sokolov, Ivan",g,Bosnia and Herzegovina,2611,1968,32
+71,72,"Psakhis, Lev",g,Israel,2611,1958,42
+72,73,"Jussupow, Artur",g,Germany,2610,1960,40
+73,74,"Landa, Konstantin",g,Russia,2610,1972,28
+74,75,"Sutovsky, Emil",g,Israel,2609,1977,23
+75,76,"Tiviakov, Sergei",g,Netherlands,2608,1973,27
+76,77,"Ftacnik, Lubomir",g,Slovakia,2608,1957,43
+77,78,"Dolmatov, Sergey",g,Russia,2608,1959,41
+78,79,"Morovic Fernandez, Ivan",g,Croatia,2608,1963,37
+79,80,"Magomedov, Magaram",g,Russia,2608,1966,34
+80,81,"Grischuk, Alexander",g,Russia,2606,1983,17
+81,82,"Dautov, Rustem",g,Germany,2606,1965,35
+82,83,"Malakhov, Vladimir",g,Russia,2605,1980,20
+83,84,"Smagin, Sergey",g,Russia,2605,1958,42
+84,85,"Granda Zuniga, Julio E",g,Peru,2605,1967,33
+85,86,"Wang, Zili",g,China,2603,1968,32
+86,87,"Shabalov, Alexander",g,USA,2601,1967,33
+87,88,"Wu, Wenjin",g,China,2601,1976,24
+88,89,"Dorfman, Josif D",g,France,2600,1952,48
+89,90,"Baklan, Vladimir",g,Ukraine,2599,1978,22
+90,91,"Giorgadze, Giorgi",g,Georgia,2599,1964,36
+91,92,"Vladimirov, Evgeny",g,Kazakhstan,2598,1957,43
+92,93,"Lputian, Smbat G",g,Armenia,2598,1958,42
+93,94,"Najer, Evgeniy",g,Russia,2597,1977,23
+94,95,"Yermolinsky, Alex",g,USA,2596,1958,42
+95,96,"Kuzmin, Alexey",g,Russia,2596,1963,37
+96,97,"Lutz, Christopher",g,Germany,2595,1971,29
+97,98,"Minasian, Artashes",g,Armenia,2595,1967,33
+98,99,"Iordachescu, Viorel",g,Moldova,2594,1977,23
+99,100,"Fominyh, Alexander",g,Russia,2594,1959,41
